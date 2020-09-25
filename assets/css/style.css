@@ -596,13 +596,26 @@ td{
 tr,th{
     cursor: pointer;
 }
+.logo{
+  float: left;
+  width: 130px;
+  height: 70px;
+  z-index: 3;
+  line-height: 50px;
+  padding-right: 550px;
 
+}
 
+.speak{
+  color: #107589;
+  text-decoration: none;
+  position: relative;
+  padding-right: 8px;
+  font-weight: bold;
+}
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
+.speak:hover{
+  color: black;
 }
 .nav {
   background: #511F73;
@@ -617,24 +630,12 @@ tr,th{
   transition: height .5s ease-in-out;
   z-index: 3;
   opacity: 1;
-
-
 }
 .nav-brand, .nav-link, .nav-collapse {
   display: inline-block;
 }
-.nav-speak{
-  color: #0d0e0f;
-  font-weight:bold;
-  display:flex;
-  float: right;
-  line-height: 50px;
-  padding-left: 0px;
-  text-decoration: none;
-  font-size: 1rem;
-  padding-bottom: 2px;
-}
-.nav-brand, .nav-link {
+
+.nav-brand, .nav-link{
   color: #fff;
   text-decoration: none;
   line-height: 50px;
@@ -667,7 +668,6 @@ tr,th{
   opacity: 0.8;
   padding-bottom: px;
 }
-
 
 
 
@@ -721,9 +721,3 @@ tr,th{
   .toggler {
     display: block;
   }
-
-.speak{
-  float: right;
-  color: black;
-  z-index: 3;
-}
