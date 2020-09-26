@@ -44,7 +44,7 @@ body {
   padding-bottom: 10px;
   bottom: 0;
   width: 100%;
-  background-color: #511F73;
+  background-color: #414770;
   color: #fff;
   text-align: center;
   z-index: 1;
@@ -52,7 +52,7 @@ body {
 }
 .footer p{
   opacity: 0.8;
-  background-color: #511F73;
+  background-color: #414770;
 }
 
 .GreyBckg {
@@ -70,7 +70,7 @@ h2 {
   position: relative;
   top: -400px;
   font-size: 55px;
-  color: #8B79D9;
+  color: #867BCC;
   padding-right: 300px;
   padding-left: 50px;
   text-justify: inter-word;
@@ -618,7 +618,7 @@ tr,th{
   color: black;
 }
 .nav {
-  background: #511F73;
+  background: #414770;
   width: 100%;
   height: 55px;
   position: fixed;
